@@ -1,4 +1,4 @@
-# SQL-typescript
+# Express-React-typescript
 
 ## install
 
@@ -21,3 +21,8 @@ the build Project will be in *./server*
 
 2. build the Frontend
     - >npm run front-dev
+
+## test the server after build
+
+- >node server/index.js
+

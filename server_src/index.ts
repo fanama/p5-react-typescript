@@ -14,10 +14,4 @@ server.get('/',(req,res)=>{
     res.sendFile(__dirname+'/public/index.html')
 })
 
-server.post('/requete/:id',(req,res)=>{
-    const {id} = req.params
-    console.log("new entry "+id)
-    res.sendFile(__dirname+'/public/sql.html')
-})
-
 server.listen(3000,()=>{console.log("Sql_node is on 3000")})
